@@ -8,17 +8,13 @@ The goal is to create a system that efficiently manages class enrolments, tracks
 
 - The GroupExercise Class:
   - Attributes:
-
-o The name of the group exercise class.
-o The trainer assigned to conduct the class (an object of the Trainer class).
-o The maximum capacity of the class.
-o A list of participants (objects of the Member class) who have enrolled in the
-class.
-o A list of gym members who are on the waitlist for the class.
-o The fee amount for the class.
-o A list of gym members (objects of the Member class) who have checked-in for
-the class.
-
+    - The name of the group exercise class.
+    - The trainer assigned to conduct the class (an object of the Trainer class).
+    - The maximum capacity of the class.
+    - A list of participants (objects of the Member class) who have enrolled in the class.
+    - A list of gym members who are on the waitlist for the class.
+    - The fee amount for the class.
+    - A list of gym members (objects of the Member class) who have checked-in for the class.
   - Methods:
 o Enrols a gym member into the group exercise class. If the class is full, the
 member will be added to the waitlist.
