@@ -6,7 +6,7 @@ The goal is to create a system that efficiently manages class enrolments, tracks
 
 ## Classes definition
 
-### The GroupExercise Class groupExercise:
+### The GroupExercise Class:
 ```
   def __init__(self, name, maximumCapacity):
         self.__name = name
