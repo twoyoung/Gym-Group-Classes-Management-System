@@ -19,7 +19,6 @@ The goal is to create a system that efficiently manages class enrolments, tracks
         self.__checkedInMemberList = [] # Initialize as empty list
 ```
 
-
     - The name of the group exercise class.
     - The trainer assigned to conduct the class (an object of the Trainer class).
     - The maximum capacity of the class.
