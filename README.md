@@ -7,7 +7,7 @@ The goal is to create a system that efficiently manages class enrolments, tracks
 ## Classes definition
 
 - The GroupExercise Class:
-Attributes:
+  - Attributes:
 
 o The name of the group exercise class.
 o The trainer assigned to conduct the class (an object of the Trainer class).
@@ -19,7 +19,7 @@ o The fee amount for the class.
 o A list of gym members (objects of the Member class) who have checked-in for
 the class.
 
-Methods:
+  - Methods:
 o Enrols a gym member into the group exercise class. If the class is full, the
 member will be added to the waitlist.
 o Removes a gym member from the enrolled list.
