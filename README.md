@@ -18,6 +18,7 @@ The goal is to create a system that efficiently manages class enrolments, tracks
         self.__waitlist = [] # Initialize as empty list
         self.__checkedInMemberList = [] # Initialize as empty list
 ```
+
     - The name of the group exercise class.
     - The trainer assigned to conduct the class (an object of the Trainer class).
     - The maximum capacity of the class.
@@ -44,6 +45,7 @@ def __init__(self, name, memberNumber):
         self.__memberNumber = memberNumber
         self.__enrolledGroupClass = [] # Initialize as emply list
 ```
+
   - Attributes:
     - The full name of the gym member.
     - A unique membership number for the gym member.
@@ -61,6 +63,7 @@ class trainer:
         self.__expertise = expertise
         self.__groupClass = []
 ```
+
   - Attributes:
     - The full name of the trainer.
     - The specialisation or expertise of the trainer.
