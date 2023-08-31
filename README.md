@@ -6,8 +6,7 @@ The goal is to create a system that efficiently manages class enrolments, tracks
 
 ## Classes definition
 
-- The GroupExercise Class groupExercise:
-  - Attributes:
+### The GroupExercise Class groupExercise:
 ```
   def __init__(self, name, maximumCapacity):
         self.__name = name
@@ -19,6 +18,7 @@ The goal is to create a system that efficiently manages class enrolments, tracks
         self.__checkedInMemberList = [] # Initialize as empty list
 ```
 
+  - Attributes:
     - The name of the group exercise class.
     - The trainer assigned to conduct the class (an object of the Trainer class).
     - The maximum capacity of the class.
@@ -38,7 +38,7 @@ The goal is to create a system that efficiently manages class enrolments, tracks
     - Marks a gym member's attendance for the class.
     - Calculates and returns the attendance percentage for the class, representing the ratio of members checked-in to the total number of enrolled members.
 
-- The Member Class:
+### The Member Class:
 ```
 def __init__(self, name, memberNumber):
         self.__name = name
@@ -55,7 +55,7 @@ def __init__(self, name, memberNumber):
     - Cancels enrolment in a group exercise class.
     - Displays all booked group exercise classes.
 
-- The Trainer Class:
+ ### The Trainer Class:
 ```
 class trainer:
     def __init__(self, name, expertise):
